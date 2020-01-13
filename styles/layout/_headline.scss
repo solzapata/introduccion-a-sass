@@ -1,0 +1,29 @@
+.card-complete{
+    main{
+        header{
+            display: flex;
+            justify-content: space-between;
+            margin: 18px auto 0px;
+            width: 700px;      
+            div{
+                height: 50px;
+                flex-direction: column;
+                display: flex;
+                justify-content: space-between;
+                h1{
+                    font-size: 19px;
+                    margin: 0px;
+                }
+                span{
+                    font-size: 14px;
+                    color: $color-description;
+                }
+                h5{
+                    margin: 0px;
+                    font-size: 13px;
+                    color: $color-back-right;
+                }
+            }
+        }
+    }
+}

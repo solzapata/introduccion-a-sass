@@ -1,0 +1,13 @@
+.card-complete{
+    aside{
+        background-color: $color-back-right;
+        display: flex;
+        flex-direction: column;
+        width: 40%;        
+        justify-content: space-around;
+        padding-left: 40px;
+        span, li{
+            font-size: 13px;
+        }
+    }
+}

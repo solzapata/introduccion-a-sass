@@ -1,0 +1,23 @@
+.card-user{
+    background-color: $color-cards;
+    width: 185px;
+    height: 180px;
+    margin: 20px 15px;
+    padding: 20px;
+    font-size: 14px;
+    img{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+    h3{
+        color:$color-back-right;
+    }
+    p{
+        color: $color-description;
+        font-weight: bold;
+    }
+    span{
+        color: $color-description;
+    }
+}
